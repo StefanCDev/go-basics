@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -t | sed -z 's#[[:space:]]#,#g' | sed 's/.$//'

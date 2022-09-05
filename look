@@ -1,0 +1,1 @@
+find \( -iname "a*" \) -or \( -iname "*z" -and -type f \) -or \( -iname "z*" -and -iname "*a!" -and -type f \)

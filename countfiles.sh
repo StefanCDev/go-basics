@@ -1,1 +1,1 @@
-find . \( -type f -or -type d \) -and \( -not -path "*/.*" \) | wc -1
+find . \( -type f -or -type d \) -and \( -not -path "*/.*" \) | wc -l

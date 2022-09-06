@@ -1,2 +1,2 @@
 #!/bin/sh
-echo Hello scornea!
+echo scornea!

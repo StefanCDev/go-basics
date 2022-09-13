@@ -1,6 +1,6 @@
 package piscine
 
-func InterativePower(nb int, power int) {
+func InterativePower(nb int, power int) int {
 	if power < 0 {
 		return 0
 	}

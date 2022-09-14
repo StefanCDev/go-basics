@@ -1,4 +1,5 @@
 package piscine
+
 func TrimAtoi(s string) int {
 	runes := []rune(s)
 	sign := 1
@@ -17,4 +18,5 @@ func TrimAtoi(s string) int {
 			result = 10*result + int(r-'0')
 		}
 	}
-	
+	return sign * result
+}

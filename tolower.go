@@ -5,7 +5,7 @@ func ToLower(s string) string {
 	result := ""
 	for i := 0; i <= len(h)-1; i++ {
 		if (h[i] >= 'A') && (h[i] <= 'Z') {
-			h[i] = h[i] - 32
+			h[i] = h[i] + 32
 		}
 		result += string(h[i])
 	}

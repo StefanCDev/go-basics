@@ -1,11 +1,11 @@
 package piscine
 
-func ToUpper(s string) string {
+func ToLower(s string) string {
 	h := []rune(s)
 	result := ""
 	for i := 0; i <= len(h)-1; i++ {
 		if (h[i] >= 'A') && (h[i] <= 'Z') {
-			h[i] = h[i] + 32
+			h[i] = h[i] - 32
 		}
 		result += string(h[i])
 	}

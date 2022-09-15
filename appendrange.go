@@ -1,9 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
 func AppendRange(min, max int) []int {
 	// you create an array of int
 	var resultArr []int
@@ -17,9 +13,4 @@ func AppendRange(min, max int) []int {
 		resultArr = append(resultArr, i)
 	}
 	return resultArr
-}
-
-func piscine() {
-	fmt.Println(AppendRange(5, 10))
-	fmt.Println(AppendRange(10, 5))
 }

@@ -1,6 +1,8 @@
 package piscine
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func AppendRange(min, max int) []int {
 	// you create an array of int

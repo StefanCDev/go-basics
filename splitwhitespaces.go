@@ -17,6 +17,7 @@ func SplitWhiteSpaces(s string) []string {
 				runeSlice2 = nil
 			}
 		}
-		return answerSlice
+		// return answerSlice
 	}
+	return answerSlice
 }

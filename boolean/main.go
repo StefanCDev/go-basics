@@ -1,46 +1,40 @@
 package main
 
 import (
+	"os"
+
 	"github.com/01-edu/z01"
 )
 
-func printStr(s string) {
-	for _, r := range s {
-		z01.PrintRune(r)
+func printStr(str string) {
+	arrayStr := []rune(str)
+	for _, s := range arrayStr {
+		z01.PrintRune(s)
 	}
+	z01.PrintRune('\n')
 }
 
-func StripDigits(n int) []int {
-	if n < 10 {
-		return []int{n}
-	} else {
-		return append(StripDigits(n/10), []int{n % 10}...)
+func even(nbr int) bool {
+	if nbr%2 == 0 {
+		return true
 	}
+	return false
 }
 
-func setPoint(ptr *[2]int) {
-	ptrArr := *ptr
-	ptrArr[0] = 42
-	ptrArr[1] = 21
-	*ptr = ptrArr
+func isEven(nbr int) bool {
+	if even(nbr) == true {
+		return true
+	}
+	return false
 }
 
 func main() {
-	points := [2]int{}
-	numArr := make([]int, 0)
-
-	setPoint(&points)
-
-	numArr = StripDigits(points[0])
-
-	printStr("x = ")
-	for _, r := range numArr {
-		z01.PrintRune(rune(r + 48))
+	EvenMsg := "I have an even number of arguments"
+	OddMsg := "I have an odd number of arguments"
+	lenOfArg := len(os.Args[1:])
+	if isEven(lenOfArg) {
+		printStr(EvenMsg)
+	} else {
+		printStr(OddMsg)
 	}
-	printStr(", y = ")
-	numArr = StripDigits(points[1])
-	for _, r := range numArr {
-		z01.PrintRune(rune(r + 48))
-	}
-	z01.PrintRune('\n')
 }

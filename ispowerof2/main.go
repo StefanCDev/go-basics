@@ -22,9 +22,7 @@ func main() {
 		}
 		var x int = 2 ^ counts
 		if x == numbers {
-			return true
-		} else {
-			return false
+			return
 		}
 	}
 }

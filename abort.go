@@ -1,13 +1,14 @@
 package piscine
 
-import (
-	"sort"
-)
-
 func Abort(a, b, c, d, e int) int {
-	arg := []int{a, b, c, d, e}
+	numslice := []int{a, b, c, d, e}
 
-	sort.Sort(sort.IntSlice(arg))
-
-	return arg[2]
+	for i := 0; i < len(numslice)-1; i++ {
+		for j := i + 1; j < len(numslice); j++ {
+			if numslice[i] > numslice[j] {
+				numslice[i], numslice[j] = numslice[j], numslice[i]
+			}
+		}
+	}
+	return numslice[2]
 }

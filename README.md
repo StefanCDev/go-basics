@@ -1,7 +1,7 @@
 
 Go-basics - Coding Challenges
 
-Welcome to the Piscine Go repository! This collection of exercises is designed to help you master Go programming and shell scripting, starting with foundational concepts and advancing to more complex challenges. Each task is crafted to enhance your problem-solving skills and encourage best practices.
+Welcome to the GO-basics repository! This collection of exercises is designed to help you master Go programming and shell scripting, starting with foundational concepts and advancing to more complex challenges. Each task is crafted to enhance your problem-solving skills and encourage best practices.
 
 What You'll Find Here
 

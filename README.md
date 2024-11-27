@@ -1,5 +1,18 @@
-This repository contains a series of coding exercises and challenges that progressively develop skills in Go programming and shell scripting. The tasks range from beginner-level fundamentals, such as printing digits and letters, to more advanced challenges, including custom algorithm implementations like the IsSorted function.
 
-The exercises are designed to foster problem-solving skills and follow the principles of Test-Driven Development (TDD). For reference and additional challenges, the original tasks can be found in the 01-edu public repository.
+Go-basics - Coding Challenges
 
-Whether you're new to Go or looking to strengthen your understanding of its concepts, this repository serves as a great learning resource.
+Welcome to the Piscine Go repository! This collection of exercises is designed to help you master Go programming and shell scripting, starting with foundational concepts and advancing to more complex challenges. Each task is crafted to enhance your problem-solving skills and encourage best practices.
+
+What You'll Find Here
+
+Shell Scripting Tasks
+Learn to leverage powerful tools like curl, sed, and jq through practical, real-world scripts.
+
+Go Programming Challenges
+Progress from basic exercises, like printing digits and letters, to advanced algorithms like the custom implementation of the IsSorted function.
+These tasks are perfect for beginners and experienced developers alike, offering a hands-on approach to learning and problem-solving.
+
+Explore More Challenges
+The exercises in this repository are part of a broader curriculum, with additional challenges and resources available in the 01-edu public repository.
+
+Dive in, learn, and grow your coding expertise! 🚀
